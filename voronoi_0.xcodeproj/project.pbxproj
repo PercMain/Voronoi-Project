@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A5152BAD1E724C2400D7C17E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5152BAC1E724C2400D7C17E /* main.cpp */; };
 		A5B2632D1E73BCCB0030877E /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B2632B1E73BCCB0030877E /* Geometry.cpp */; };
-		A5B263301E74A1570030877E /* SvgPacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5B2632E1E74A1570030877E /* SvgPacker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		A5152BAC1E724C2400D7C17E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A5B2632B1E73BCCB0030877E /* Geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Geometry.cpp; sourceTree = "<group>"; };
 		A5B2632C1E73BCCB0030877E /* Geometry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Geometry.hpp; sourceTree = "<group>"; };
-		A5B2632E1E74A1570030877E /* SvgPacker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SvgPacker.cpp; path = ../../BenderPlusPlusThree/BenderPlusPlusThree/SvgPacker.cpp; sourceTree = "<group>"; };
-		A5B2632F1E74A1570030877E /* SvgPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvgPacker.h; path = ../../BenderPlusPlusThree/BenderPlusPlusThree/SvgPacker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +60,6 @@
 		A5152BAB1E724C2400D7C17E /* voronoi_0 */ = {
 			isa = PBXGroup;
 			children = (
-				A5B2632E1E74A1570030877E /* SvgPacker.cpp */,
-				A5B2632F1E74A1570030877E /* SvgPacker.h */,
 				A5152BAC1E724C2400D7C17E /* main.cpp */,
 				A5B2632B1E73BCCB0030877E /* Geometry.cpp */,
 				A5B2632C1E73BCCB0030877E /* Geometry.hpp */,
@@ -129,7 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5152BAD1E724C2400D7C17E /* main.cpp in Sources */,
-				A5B263301E74A1570030877E /* SvgPacker.cpp in Sources */,
 				A5B2632D1E73BCCB0030877E /* Geometry.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

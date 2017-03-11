@@ -18,9 +18,11 @@ vector <point> points =
     ,{300.0, 100.0}
 };
 
+/*
 double minX = 0.0, maxX = 400.0, minY = 0.0, maxY = 400.0;
 
 double sweep = 0.0;
+*/
 
 //Main Loop
 int main(int argc, const char * argv[]) {
